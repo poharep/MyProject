@@ -27,7 +27,8 @@ public class VerifyHeadersOfApplication {
 	private ApplicationHeader applicationHeader;
 	private LoginPage loginPage;
 	
-	
+	static ExtentTest test;
+	static ExtentHtmlReporter reporter;	
 	@BeforeClass
 	public void launchBrowser()
 	{
